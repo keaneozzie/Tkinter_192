@@ -79,3 +79,10 @@ btn_prediksi = ttk.Button(
 )
 btn_prediksi.pack(pady=(20, 15), fill=tk.X)
 
+# ==========================================
+# 12. feat: inisialisasi variabel stringvar luaran
+# ==========================================
+label_hasil_var = tk.StringVar()
+
+
+
