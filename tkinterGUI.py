@@ -56,3 +56,11 @@ mata_pelajaran = [
 ]
 entries_nilai = []
 
+# ==========================================
+# 9. feat: buat label nilai secara dinamis
+# ==========================================
+for i, mapel in enumerate(mata_pelajaran):
+    lbl = ttk.Label(frame_input, text=f"Nilai {mapel}:", font=("Helvetica", 10))
+    lbl.grid(row=i, column=0, sticky=tk.W, pady=4, padx=(0, 10))
+    
+   
