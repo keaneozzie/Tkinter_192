@@ -30,3 +30,14 @@ style.theme_use("clam")
 main_frame = ttk.Frame(root, padding="20 20 20 20")
 main_frame.pack(fill=tk.BOTH, expand=True)
 
+# ==========================================
+# 6. feat: tambah label judul aplikasi
+# ==========================================
+label_judul = ttk.Label(
+    main_frame,
+    text="Aplikasi Prediksi Prodi Pilihan",
+    font=("Helvetica", 16, "bold"),
+    anchor="center",
+)
+label_judul.pack(pady=(0, 20))
+
