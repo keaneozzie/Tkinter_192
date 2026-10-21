@@ -101,5 +101,11 @@ label_hasil = ttk.Label(
 )
 label_hasil.pack(pady=10)
 
+# ==========================================
+# 15. feat: jalankan main loop aplikasi
+# ==========================================
+root.mainloop()
+
+
 
 
