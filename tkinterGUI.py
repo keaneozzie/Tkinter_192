@@ -47,3 +47,12 @@ label_judul.pack(pady=(0, 20))
 frame_input = ttk.Frame(main_frame)
 frame_input.pack(fill=tk.X, pady=5)
 
+# ==========================================
+# 8. refactor: definisikan daftar mata pelajaran
+# ==========================================
+mata_pelajaran = [
+    "Matematika", "Bahasa Indonesia", "Bahasa Inggris", "Fisika", "Kimia",
+    "Biologi", "Ekonomi", "Sosiologi", "Geografi", "Informatika"
+]
+entries_nilai = []
+
