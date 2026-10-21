@@ -84,5 +84,9 @@ btn_prediksi.pack(pady=(20, 15), fill=tk.X)
 # ==========================================
 label_hasil_var = tk.StringVar()
 
+# ==========================================
+# 13. feat: set nilai awal variabel luaran
+# ==========================================
+label_hasil_var.set("Hasil Prediksi: -")
 
 
