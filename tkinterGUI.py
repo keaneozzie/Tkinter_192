@@ -41,3 +41,9 @@ label_judul = ttk.Label(
 )
 label_judul.pack(pady=(0, 20))
 
+# ==========================================
+# 7. layout: buat frame penampung input
+# ==========================================
+frame_input = ttk.Frame(main_frame)
+frame_input.pack(fill=tk.X, pady=5)
+
