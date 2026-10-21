@@ -71,3 +71,11 @@ for i, mapel in enumerate(mata_pelajaran):
     frame_input.grid_columnconfigure(1, weight=1)
     entries_nilai.append(entry)
 
+# ==========================================
+# 11. feat: tambah tombol hasil prediksi
+# ==========================================
+btn_prediksi = ttk.Button(
+    main_frame, text="Hasil Prediksi", command=prediksi_prodi
+)
+btn_prediksi.pack(pady=(20, 15), fill=tk.X)
+
