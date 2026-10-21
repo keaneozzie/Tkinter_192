@@ -23,3 +23,10 @@ root.resizable(False, False)
 # ==========================================
 style = ttk.Style()
 style.theme_use("clam")
+
+# ==========================================
+# 5. layout: buat frame utama pembungkus
+# ==========================================
+main_frame = ttk.Frame(root, padding="20 20 20 20")
+main_frame.pack(fill=tk.BOTH, expand=True)
+
