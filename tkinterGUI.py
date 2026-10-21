@@ -63,4 +63,11 @@ for i, mapel in enumerate(mata_pelajaran):
     lbl = ttk.Label(frame_input, text=f"Nilai {mapel}:", font=("Helvetica", 10))
     lbl.grid(row=i, column=0, sticky=tk.W, pady=4, padx=(0, 10))
     
-   
+    # ==========================================
+    # 10. feat: buat input entry nilai secara dinamis
+    # ==========================================
+    entry = ttk.Entry(frame_input, width=25)
+    entry.grid(row=i, column=1, sticky=tk.E, pady=4)
+    frame_input.grid_columnconfigure(1, weight=1)
+    entries_nilai.append(entry)
+
