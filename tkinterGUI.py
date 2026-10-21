@@ -18,3 +18,8 @@ root.title("Aplikasi Prediksi Prodi Pilihan")
 root.geometry("500x650")
 root.resizable(False, False)
 
+# ==========================================
+# 4. style: atur tema aplikasi menggunakan clam
+# ==========================================
+style = ttk.Style()
+style.theme_use("clam")
