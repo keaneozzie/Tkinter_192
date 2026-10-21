@@ -89,4 +89,17 @@ label_hasil_var = tk.StringVar()
 # ==========================================
 label_hasil_var.set("Hasil Prediksi: -")
 
+# ==========================================
+# 14. feat: tambah label luaran hasil prediksi
+# ==========================================
+label_hasil = ttk.Label(
+    main_frame,
+    textvariable=label_hasil_var,
+    font=("Helvetica", 12, "bold"),
+    foreground="#1D6F42",
+    anchor="center",
+)
+label_hasil.pack(pady=10)
+
+
 
